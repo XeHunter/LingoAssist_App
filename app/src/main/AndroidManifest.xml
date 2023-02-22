@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LingoAssist"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject">
+        <activity
+            android:name=".notify"
+            android:exported="false" />
+        <activity
+            android:name=".english.ESplashScreen5"
+            android:exported="false" />
+        <activity
+            android:name=".english.ESplashScreen4"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish10"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish9"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish8"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish7"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish6"
+            android:exported="false" />
+        <activity
+            android:name=".english.ESplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish5"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish4"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish3"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish2"
+            android:exported="false" />
+        <activity
+            android:name=".english.Aenglish1"
+            android:exported="false" />
+        <activity
+            android:name=".english.ESplashScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".english.englishtest"
+            android:exported="false" />
+        <activity
+            android:name=".english.english11"
+            android:exported="false" />
+        <activity
+            android:name=".english.english10"
+            android:exported="false" />
+        <activity
+            android:name=".english.english9"
+            android:exported="false" />
+        <activity
+            android:name=".english.english8"
+            android:exported="false" />
+        <activity
+            android:name=".english.english7"
+            android:exported="false" />
+        <activity
+            android:name=".english.english6"
+            android:exported="false" />
+        <activity
+            android:name=".english.english5"
+            android:exported="false" />
+        <activity
+            android:name=".english.english4"
+            android:exported="false" />
+        <activity
+            android:name=".english.english3"
+            android:exported="false" />
+        <activity
+            android:name=".english.english2"
+            android:exported="false" />
+        <activity
+            android:name=".english.english1"
+            android:exported="false" />
+        <activity
+            android:name=".russian.RSplashScreen5"
+            android:exported="false" />
+        <activity
+            android:name=".russian.RSplashScreen4"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian10"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian9"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian8"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian7"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian6"
+            android:exported="false" />
+        <activity
+            android:name=".russian.RSplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian5"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian4"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian3"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian2"
+            android:exported="false" />
+        <activity
+            android:name=".russian.RSplashScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".russian.Arussian1"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russiantest"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian11"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian10"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian9"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian8"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian7"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian6"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian5"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian4"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian3"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian2"
+            android:exported="false" />
+        <activity
+            android:name=".russian.russian1"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.SSplashScreen5"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.SSplashScreen4"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish10"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish9"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish8"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish7"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish6"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.SSplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish5"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish4"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish3"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish2"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.SSplashScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.Aspanish1"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanishtest"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish11"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish10"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish9"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish8"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish7"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish6"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish5"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish4"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish3"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish2"
+            android:exported="false" />
+        <activity
+            android:name=".spanish.spanish1"
+            android:exported="false" />
+        <activity
+            android:name=".italian.ISplashScreen5"
+            android:exported="false" />
+        <activity
+            android:name=".italian.ISplashScreen4"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian10"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian9"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian8"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian7"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian6"
+            android:exported="false" />
+        <activity
+            android:name=".italian.ISplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian5"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian4"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian3"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian2"
+            android:exported="false" />
+        <activity
+            android:name=".italian.ISplashScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".italian.Aitalian1"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italiantest"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian11"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian10"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian9"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian8"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian7"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian6"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian5"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian4"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian3"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian2"
+            android:exported="false" />
+        <activity
+            android:name=".italian.italian1"
+            android:exported="false" />
+        <activity
+            android:name=".german.GSplashScreen5"
+            android:exported="false" />
+        <activity
+            android:name=".german.GSplashScreen4"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman10"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman9"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman8"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman7"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman6"
+            android:exported="false" />
+        <activity
+            android:name=".german.GSplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman5"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman4"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman3"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman2"
+            android:exported="false" />
+        <activity
+            android:name=".german.GSplashScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".german.Agerman1"
+            android:exported="false" />
+        <activity
+            android:name=".german.germantest"
+            android:exported="false" />
+        <activity
+            android:name=".german.german11"
+            android:exported="false" />
+        <activity
+            android:name=".german.german10"
+            android:exported="false" />
+        <activity
+            android:name=".german.german9"
+            android:exported="false" />
+        <activity
+            android:name=".german.german8"
+            android:exported="false" />
+        <activity
+            android:name=".german.german7"
+            android:exported="false" />
+        <activity
+            android:name=".german.german6"
+            android:exported="false" />
+        <activity
+            android:name=".german.german5"
+            android:exported="false" />
+        <activity
+            android:name=".german.german4"
+            android:exported="false" />
+        <activity
+            android:name=".german.german3"
+            android:exported="false" />
+        <activity
+            android:name=".german.german2"
+            android:exported="false" />
+        <activity
+            android:name=".german.german1"
+            android:exported="false" />
+        <activity
+            android:name=".french.SplashScreen5"
+            android:exported="false" />
+        <activity
+            android:name=".french.SplashScreen4"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench10"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench9"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench8"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench7"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench6"
+            android:exported="false" />
+        <activity
+            android:name=".french.SplashScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench5"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench4"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench3"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench2"
+            android:exported="true" />
+        <activity
+            android:name=".french.SplashScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".french.Afrench1"
+            android:exported="true" />
+        <activity
+            android:name=".french.french11"
+            android:exported="false" />
+        <activity
+            android:name=".french.french10"
+            android:exported="false" />
+        <activity
+            android:name=".french.frenchtest"
+            android:exported="true" />
+        <activity
+            android:name=".french.french9"
+            android:exported="false" />
+        <activity
+            android:name=".french.french8"
+            android:exported="false" />
+        <activity
+            android:name=".french.french7"
+            android:exported="false" />
+        <activity
+            android:name=".french.french6"
+            android:exported="false" />
+        <activity
+            android:name=".french.french5"
+            android:exported="false" />
+        <activity
+            android:name=".french.french4"
+            android:exported="false" />
+        <activity
+            android:name=".french.french3"
+            android:exported="false" />
+        <activity
+            android:name=".french.french2"
+            android:exported="false" />
+        <activity
+            android:name=".french.french1"
+            android:exported="false" />
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".info"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".Login1"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".NotifyReceiver"/>
+
+    </application>
+
+</manifest>

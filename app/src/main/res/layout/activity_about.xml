@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:id="@+id/lla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/lli1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="35dp"
+            android:fontFamily="@font/aladin"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lla1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:justificationMode="inter_word"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/acme"
+        android:text="More and more people are learning new things for broader life experiences and to enhance their skill-set.
+You can take advantage by creating an app that can help users learn the A, B, C, Ds of new languages and
+then progress as per their knowledge level. This app idea in 2022 can even facilitate audio features for
+users to learn the correct pronunciation of words. The
+android app project proposed here aims at teaching user a language he/she
+doesn’t know about. This app can teach languages by pronunciation and with
+help of video tutorials.\n\n
+These smartphone apps aim to encourage the student to learn to speak as soon
+as possible. Knowing the vocabulary, set phrases, and grammar helps to keep a
+conversation going in no time. Of course, it is difficult to become truly fluent,
+but basic speaking skills can be acquired in weeks or even days.
+"
+        android:textSize="20dp" />
+
+</RelativeLayout>

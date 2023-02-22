@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:layout_margin="10dp"
+        android:text="Incorrect!"
+        android:textColor="#F11C0C"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/incon"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#F11C0C"
+        android:fontFamily="@font/acme"
+        android:text="Try Again"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+</LinearLayout>

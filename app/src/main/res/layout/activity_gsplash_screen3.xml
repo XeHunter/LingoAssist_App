@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57F44336"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/robot" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/acme"
+        android:layout_margin="10dp"
+        android:text="Starting a conversation test with our virtual assisant Alex"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="29sp" />
+</LinearLayout>
